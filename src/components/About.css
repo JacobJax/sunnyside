@@ -1,0 +1,52 @@
+#about h1, .btn {
+   font-family: 'Fraunces', serif;
+   margin: 2rem 0;
+}
+#about img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+#about p{
+   font-family: 'Barlow', sans-serif;
+   color: var(--dark-moderate-cyan);
+}
+.about-text {
+   padding: 2rem;
+   text-align: center;
+}
+.btn-underline {
+   position: relative;
+}
+.btn-underline::after{
+   position: absolute;
+   bottom: -2px;
+   left: -14px;
+   right: -14px;
+   height: .8rem;
+   content: '';
+   z-index: -1;
+   max-width: 14rem;
+   border-radius: 5px;
+}
+#tr-btn::after{
+   background-color: var(--yellow);
+}
+#st-btn::after{
+   background-color: var(--soft-red);
+}
+
+
+@media (min-width: 768px) {
+   .about-text {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem 4rem;
+   }
+   .about-detail div {
+      width: 50%;
+   }
+}
