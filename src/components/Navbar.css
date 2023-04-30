@@ -1,5 +1,5 @@
-nav {
-   background-color: rgb(40, 36, 48);
+nav .container {
+   padding: 2rem;
 }
 #menu-links {
    font-family: 'Barlow', sans-serif;
@@ -21,7 +21,7 @@ nav {
       left: 0;
       right: 0;
       bottom: 0;
-      padding: 1rem 2rem;
+      padding: 2rem;
       display: flex;
       flex-direction: column;
       background-color: #000000a9;

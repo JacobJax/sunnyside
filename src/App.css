@@ -1,2 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
+#top {
+   height: 100vh;
+   background-image: url('./assets/images/mobile/image-header.jpg');
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+@media (min-width: 1024px) {
+   #top {
+      background-image: url('./assets/images/desktop/image-header.jpg');
+   }
+}
+
