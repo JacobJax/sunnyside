@@ -3,7 +3,6 @@ nav {
 }
 #menu-links {
    font-family: 'Barlow', sans-serif;
-   display: none;
 }
 .btn-container {
    padding: .8rem 1.2rem;
@@ -12,7 +11,10 @@ nav {
    border-radius: 25px;
 }
 
-@media (max-width: 748px) {
+@media (max-width: 768px) {
+   #menu-links {
+      display: none;
+   }
    .nav-layer {
       position: absolute;
       top: 0;
