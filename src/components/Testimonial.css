@@ -1,5 +1,6 @@
 #testimonial {
    background-color: #fde8e8;
+   padding: 2rem;
 }
 :is(#testimonial) h1, :is(#testimonial) h3 {
    font-family: 'Fraunces', serif;
@@ -22,4 +23,10 @@
 }
 small {
    color: var(--dark-moderate-cyan);
+}
+
+@media (min-width: 768px) {
+   #testimonial {
+      padding: 4rem;
+   }
 }

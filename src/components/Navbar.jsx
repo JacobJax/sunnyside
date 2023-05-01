@@ -27,7 +27,7 @@ export default function Navbar() {
                   <img src={Hamgurger} alt="hamburger menu" id='hamburger' />
                </div>
                <div id="menu-links" className='md:w-full md:flex md:justify-between md:gap-4'>
-                  <ul className='text-white md:flex md:justify-between md:w-3/4 md:items-center'>
+                  <ul className='text-white md:flex md:justify-between md:w-3/4 md:items-center md:px-8'>
                      <li><a href="#">About</a></li>
                      <li><a href="#">Services</a></li>
                      <li><a href="#">Projects</a></li>
