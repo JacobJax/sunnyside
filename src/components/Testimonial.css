@@ -1,0 +1,25 @@
+#testimonial {
+   background-color: #fde8e8;
+}
+:is(#testimonial) h1, :is(#testimonial) h3 {
+   font-family: 'Fraunces', serif;
+}
+:is(#testimonial) p, :is(#testimonial) small {
+   font-family: 'Barlow', sans-serif;
+}
+:is(#testimonial) h1 {
+   padding: 2rem 0;
+   color: var(--dark-grayish-blue);
+}
+:is(#testimonial) h3 {
+   color: var(--very-dark-desaturated-blue);
+}
+:is(#testimonial) img {
+   border-radius: 50%;
+}
+:is(#testimonial) p{
+   color: var(--dark-desaturated-cyan);
+}
+small {
+   color: var(--dark-moderate-cyan);
+}
