@@ -1,0 +1,35 @@
+.service {
+   height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+
+   background-position: center;
+   background-size: cover;
+}
+.service-text {
+   padding: 2.4rem;
+}
+.service-text h1 {
+   font-family: 'Fraunces', serif;
+}
+.service-text p {
+   font-family: 'Barlow', sans-serif;
+}
+:is(.service-text) p, :is(.service-text) h1 {
+   color: var(--dark-desaturated-cyan);
+   padding: 1rem 0;
+}
+#graphic {
+   background-image: url('../assets/images/desktop/image-graphic-design.jpg');
+}
+#photography {
+   background-image: url('../assets/images/desktop/image-photography.jpg');
+}
+
+@media (min-width: 768px) {
+   .service-text {
+      padding: 4rem;
+      min-height: 50%;
+   }
+}
